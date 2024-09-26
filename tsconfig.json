@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",        // Puedes usar es6 o versiones más recientes
+    "module": "es6",        // Cambia el módulo a es6 o esnext para compatibilidad con navegadores
+    "outDir": "./src/js",   // Directorio de salida
+    "rootDir": "./src/ts",  // Directorio raíz de TypeScript
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/ts/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+  
